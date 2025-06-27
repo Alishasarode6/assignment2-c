@@ -11,13 +11,13 @@ int main()
 
     if(sp > cp)
     {
-        profitorloss = sp -cp;
+        profitorloss = sp - cp;
         printf("profit of %.2f",profitorloss);
     }
 
-    else if(sp < cp);
+    else if(sp < cp)
     {
-        profitorloss = cp -sp;
+        profitorloss = cp - sp;
         printf("profit of %.2f", profitorloss);
 
     }
